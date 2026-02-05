@@ -77,15 +77,6 @@ on:
                 options:
                     - gh-pages
 
-    # #
-    #   Trigger › Push
-    # #
-
-    push:	
-        branches:	
-            - master
-            - main
-
 # #
 #   Environment Vars
 #
@@ -354,3 +345,4 @@ jobs:
                       echo "| **Update Type**             | ❌ Could not push to Cloudflare |" >> $GITHUB_STEP_SUMMARY
                     fi
                   fi
+
