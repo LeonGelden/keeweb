@@ -36,18 +36,6 @@ on:
                 type:         string
 
     # #
-    #   Trigger › Push
-    # #
-
-    push:
-        branches:
-            - 'main'
-            - 'master'
-            - 'develop/v?[0-9]+.[0-9]+.[0-9]+'
-            - 'v?[0-9]+.[0-9]+.[0-9]+'
-            - '!all-contributors/**'
-
-    # #
     #   Trigger › Pull Requests
     # #
 
@@ -346,4 +334,5 @@ jobs:
                       echo "| **Test Results**            | ✔️                                                              |" >> $GITHUB_STEP_SUMMARY
                   else
                       echo "| **Test Results**            | ❌                                                              |" >> $GITHUB_STEP_SUMMARY
+
                   fi
