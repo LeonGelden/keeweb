@@ -6,6 +6,7 @@
     "idleMinutes": 60,
     "autoSave": true,
     "autoSaveInterval": 0,
+    "cacheConfigSettings": true,
     "canOpenDemo": false,
     "dropbox": false,
     "gdrive": false,
