@@ -1,0 +1,12 @@
+{
+  "settings": {
+    "msteams": true,
+    "msteamsClientId": "3449d48e-a4e3-4536-9df5-740c67518400",
+    "msteamsTenantId": "43598f0d-0b98-4383-bf42-ad1283cf5012",
+    "canOpenDemo": false,
+    "dropbox": false,
+    "gdrive": false,
+    "onedrive": false,
+    "webdav": false
+  }
+}
