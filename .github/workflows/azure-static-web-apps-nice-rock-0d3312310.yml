@@ -32,6 +32,7 @@ jobs:
 
       - name: Add static web app config
         run: |
+          sed -i 's/(no-config)/config.json/g' dist/index.html
           cp app/staticwebapp.config.json dist/
           cp app/config.json dist/
 
@@ -58,6 +59,7 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_NICE_ROCK_0D3312310 }}
           action: "close"
+
 
 
 
